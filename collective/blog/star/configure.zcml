@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.blog.star">
+
+    <include package="collective.blog.view" />
+    <include package="collective.blog.feeds" />
+    <include package="collective.twitterportlet" />
+    <include package="collective.flowplayer" />
+    <include package="qi.portlet.TagClouds" />
+
+    <genericsetup:registerProfile
+       name="default"
+       title="collective.blog.star setup"
+       directory="profiles/default"
+       description="Generic setup for blogging"
+       provides="Products.GenericSetup.interfaces.EXTENSION"
+       />
+
+  <utility factory="collective.blog.star.profile.HiddenProfiles"
+           name="collective.blog.hiddenprofiles" />
+           
+  <utility factory="collective.blog.star.profile.HiddenProducts"
+           name="collective.blog.hiddenproducts" />
+       
+</configure>
