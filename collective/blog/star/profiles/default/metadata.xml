@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1.0</version>
+  <dependencies>
+    <dependency>profile-collective.blog.view:default</dependency>
+    <dependency>profile-collective.twitterportlet:default</dependency>    
+    <dependency>profile-collective.flowplayer:default</dependency>    
+    <dependency>profile-qi.portlet.TagClouds:default</dependency>    
+    <dependency>profile-Products.fatsyndication:default</dependency>    
+  </dependencies>
+</metadata>
