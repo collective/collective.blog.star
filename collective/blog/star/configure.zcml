@@ -12,7 +12,7 @@
 
     <genericsetup:registerProfile
        name="default"
-       title="collective.blog.star setup"
+       title="blog.star"
        directory="profiles/default"
        description="Generic setup for blogging"
        provides="Products.GenericSetup.interfaces.EXTENSION"

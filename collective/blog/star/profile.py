@@ -10,7 +10,6 @@ class HiddenProfiles(object):
     def getNonInstallableProfiles(self):
         return [
             u'collective.blog.view:default',
-            u'profile-collective.blog.view:default',
             u'collective.twitterportlet:default',
             u'collective.flowplayer:default',
             u'qi.portlet.TagClouds:default',
@@ -22,9 +21,10 @@ class HiddenProducts(object):
 
     def getNonInstallableProducts(self):
         return [
-            'collective.blog.view:default',
-            'collective.twitterportlet',
-            'collective.flowplayer',
-            'qi.portlet.TagClouds',
-            'Products.fatsyndication',
+            u'collective.blog.view',
+            u'collective.twitterportlet',
+            u'collective.flowplayer',
+            u'fatsyndication', u'Products.fatsyndication', # Yes, both are needed.
+            u'qi.portlet.TagClouds',
+            u'plone.app.jquerytools',
             ]
