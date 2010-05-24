@@ -9,6 +9,7 @@ class HiddenProfiles(object):
 
     def getNonInstallableProfiles(self):
         return [
+            u'collective.blog.portlets:default',
             u'collective.blog.view:default',
             u'collective.twitterportlet:default',
             u'collective.flowplayer:default',
@@ -21,6 +22,7 @@ class HiddenProducts(object):
 
     def getNonInstallableProducts(self):
         return [
+            u'collective.blog.portlets',
             u'collective.blog.view',
             u'collective.twitterportlet',
             u'collective.flowplayer',
