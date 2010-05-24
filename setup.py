@@ -31,4 +31,10 @@ setup(name='collective.blog.star',
           'collective.flowplayer',
           'qi.portlet.TagClouds',
       ],
+      entry_points="""
+      # -*- Entry points: -*-
+
+      [z3c.autoinclude.plugin]
+      target = plone
+      """,      
       )

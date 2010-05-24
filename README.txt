@@ -76,4 +76,33 @@ have without digging into the code and figuring out what marker interface to
 put where. This is how the blog view of collective.blog.view works.
 
 
+Requirements
+------------
+
+blog.star is developed for Plone 3. It should work with Plone 4, but this
+has not yet been tested.
+
+There are no other requirements.
+
+
+Installation
+------------
+
+To install blog.star you simply add "collective.blog.star" to the list of
+eggs in your buildout, run buildout and restart the Plone server. In Plone's
+portal_quickinstaller you select "blog.star" and install it.
+
+Now you can create a normal folder, and in the Display menu you can select
+"Blog view" to make the folder into a blog. You add blog entries with the
+standard Page type, and you can even create podcast entries with the 
+standard File type.
+
+You also have a set of new portlets available, like a Monthly Archive, a
+Last Entries and a Tag Cloud portlet.
+
+
+If you need commenting, we recommend plone.app.discussion. The reason it's
+not installed by blog.star is because under Plone 3 it's not trivial to
+install, and in Plone 4 it's included.
+
 
