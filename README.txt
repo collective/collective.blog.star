@@ -39,7 +39,10 @@ The modules so far is:
 * **collective.blog.star**: A module that uses all of the above plus some extra
   modules like qi.portlet.tagClouds useful for blogging. Use this is if you
   just want simple blogging support in Plone.
-  
+  The development of collective.blog.star was sponsored by **Jarn AS** -
+  http://www.jarn.com
+
+
   
 Flexible
 --------
@@ -79,8 +82,7 @@ put where. This is how the blog view of collective.blog.view works.
 Requirements
 ------------
 
-blog.star is developed for Plone 3. It should work with Plone 4, but this
-has not yet been tested.
+blog.star is developed for Plone 3. It will work with Plone 4 in the near future.
 
 There are no other requirements.
 
@@ -104,5 +106,3 @@ Last Entries and a Tag Cloud portlet.
 If you need commenting, we recommend plone.app.discussion. The reason it's
 not installed by blog.star is because under Plone 3 it's not trivial to
 install, and in Plone 4 it's included.
-
-
