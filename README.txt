@@ -103,6 +103,9 @@ You also have a set of new portlets available, like a Monthly Archive, a
 Last Entries and a Tag Cloud portlet.
 
 
+Commenting
+----------
+
 If you need commenting, we recommend plone.app.discussion. The reason it's
 not installed by blog.star is because under Plone 3 it's not trivial to
 install, and in Plone 4 it's included.
