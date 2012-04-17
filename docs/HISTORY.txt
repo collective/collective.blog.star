@@ -4,8 +4,19 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Starting with 1.1, collective.blog.star will now pin the versions of
+  collective.blog.view, collective.blog.portlets arnbd collective.blog.feeds.
+  The main reason for this is to make a sort of "Known Good Set" of these
+  modules without forcing you to use specific versions of other modules
+  that change much more often.
 
+  It also forces updates of collective.blog.star, which otherwise looks
+  like it is unmaintained, when it is not.
+
+This version tested with Plone 4.0.10, 4.1.4 and 4.2b2.
+
+**Note:** When upgrading from Plone 4.0 to Plone 4.1, you need to import the
+"Plone Discussions" profile in portal_setup.
 
 
 1.0 (2010-06-05)
