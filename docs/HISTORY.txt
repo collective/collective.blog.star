@@ -4,8 +4,13 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- No changes yet.
+- Added Spanish translation [macagua]
 
+- Added l10n templates files for German, English, Spanish, Basque, French, 
+  Italian, Norsk and Portuguese of Brazil.
+  [macagua]
+
+- Added i18n support [macagua]
 
 1.1 (2012-04-17)
 ----------------
