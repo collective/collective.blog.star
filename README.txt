@@ -31,7 +31,7 @@ The modules so far is:
   collections, with support for use in monthly archives.
 
 * **collective.blog.feeds**: Uses basesyndication and fatsyndication to provide
-  several types of XML/RDF feeds for fodlers/collections.
+  several types of XML/RDF feeds for folders/collections.
 
 * **collective.blog.portlets**: Portlets useful for blogging, such as a monthly
   archive and a last posts portlet.
