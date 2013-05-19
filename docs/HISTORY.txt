@@ -4,6 +4,8 @@ Changelog
 1.2 (unreleased)
 ----------------
 
+This version tested with Plone 4.0.10, 4.1.6
+
 - Added Spanish translation [macagua]
 
 - Added l10n templates files for German, English, Spanish, Basque, French, 
