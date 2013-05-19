@@ -4,11 +4,21 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-This version tested with Plone 4.0.10, 4.1.6
+This version tested with Plone 4.0.10, 4.1.6, 4.2.5,
 
-- Added Spanish translation [macagua]
+It installs:
 
-- Added i18n support [macagua]
+    collective.blog.view 1.x
+    collective.blog.portlets 1.x
+    collective.blog.feeds 1.x
+
+Changes to collective.blog.star:
+
+  - Added Spanish translation [macagua]
+  
+  - Added i18n support [macagua]
+
+
 
 1.1 (2012-04-17)
 ----------------
