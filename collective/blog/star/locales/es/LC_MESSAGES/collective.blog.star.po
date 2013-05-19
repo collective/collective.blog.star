@@ -25,5 +25,5 @@ msgstr "Agrega configuraciones genéricas para blogging en Plone"
 
 #: Profile title in configure.zcml
 msgid "blog.star"
-msgstr "collective blog.star"
+msgstr "blog.star"
 

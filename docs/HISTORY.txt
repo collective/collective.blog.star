@@ -8,10 +8,6 @@ This version tested with Plone 4.0.10, 4.1.6
 
 - Added Spanish translation [macagua]
 
-- Added l10n templates files for German, English, Spanish, Basque, French, 
-  Italian, Norsk and Portuguese of Brazil.
-  [macagua]
-
 - Added i18n support [macagua]
 
 1.1 (2012-04-17)

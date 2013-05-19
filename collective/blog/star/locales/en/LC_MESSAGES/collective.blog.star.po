@@ -16,9 +16,9 @@ msgstr ""
 
 #: Profile description in configure.zcml
 msgid "Generic setup for blogging"
-msgstr ""
+msgstr "Generic setup for blogging"
 
 #: Profile title in configure.zcml
 msgid "blog.star"
-msgstr ""
+msgstr "blog.star"
 
