@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.blog.portlets\n"
 "POT-Creation-Date: 2013-03-10 00:53+0000\n"
-"PO-Revision-Date: 2013-03-09 23:27-0400\n"
+"PO-Revision-Date: 2013-05-25 10:35-0430\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Leonardo J. Caballero G.\n"
 "Language: es\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Language-Name: Spanish\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.blog.portlets\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
 #: Profile description in configure.zcml
 msgid "Generic setup for blogging"
-msgstr "Agrega configuraciones genéricas para blogging en Plone"
+msgstr "Añade configuraciones genéricas para blog en Plone"
 
 #: Profile title in configure.zcml
 msgid "blog.star"
 msgstr "blog.star"
-
