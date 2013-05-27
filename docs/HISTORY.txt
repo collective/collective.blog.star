@@ -4,13 +4,25 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-This version tested with Plone 4.0.10, 4.1.6, 4.2.5,
+This version tested with Plone 4.0.10, 4.1.6, 4.2.5 and 4.3.
 
-It installs:
+This will be the last major release to support Plone 4.0, 4.1 and 4.2.
+Plone 3 may work, but it is untested and unsupported.
 
-    collective.blog.view 1.x
-    collective.blog.portlets 1.x
-    collective.blog.feeds 1.x
+blog.star 1.2 installs:
+
+    collective.blog.view 1.5
+    collective.blog.portlets 1.4
+    collective.blog.feeds 2.1
+
+Under Plone 4.3 it now uses the new Plone syndication support instead of
+Fatsyndication. Fatsyndication is still a dependency, and will be installed,
+but will not be active under Plone 4.3. When upgrading to Plone 4.3,
+syndication will as a result stop working, and you must reconfigure it.
+
+I plan to improve to Plone 4.4 with the small improvements to syndication
+that collective.blog.feeds implement under so that blog.star need not depend
+on collective.blog.feeds at all in future releases.
 
 Changes to collective.blog.star:
 
