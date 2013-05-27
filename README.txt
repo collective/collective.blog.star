@@ -82,7 +82,7 @@ put where. This is how the blog view of collective.blog.view works.
 Requirements
 ------------
 
-blog.star requires Plone 3 or Plone 4.
+blog.star requires Plone 4.
 
 
 Installation
