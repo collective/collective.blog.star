@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2 (unreleased)
+1.2 (2013-05-27)
 ----------------
 
 This version tested with Plone 4.0.10, 4.1.6, 4.2.5 and 4.3.
