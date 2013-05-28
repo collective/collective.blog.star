@@ -1,7 +1,6 @@
-from zope.interface import implements
-
 from Products.CMFPlone.interfaces import INonInstallable
 from Products.CMFQuickInstallerTool.interfaces import INonInstallable as INonQ
+from zope.interface import implements
 
 
 class HiddenProfiles(object):
