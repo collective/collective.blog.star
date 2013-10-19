@@ -1,10 +1,12 @@
 Changelog
 =========
 
-1.3 (unreleased)
-----------------
+1.2.1 (2013-10-19)
+------------------
 
-- Nothing changed yet.
+- Various bugfixes, and some more translations.
+
+This version tested with Plone 4.1.6, 4.2.6 and 4.3.2.
 
 
 1.2 (2013-05-27)

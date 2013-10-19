@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.3.dev0'
+version = '1.2.1'
 
 setup(name='collective.blog.star',
       version=version,
@@ -31,8 +31,8 @@ setup(name='collective.blog.star',
       install_requires=[
           'setuptools',
           'collective.blog.feeds>=2.1',
-          'collective.blog.portlets>=1.4',
-          'collective.blog.view>=1.5',
+          'collective.blog.portlets>=1.5',
+          'collective.blog.view>=1.5.2',
           'collective.twitterportlet',
           'collective.flowplayer',
           'qi.portlet.TagClouds',
