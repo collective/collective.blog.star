@@ -61,7 +61,7 @@ Simplistic
 ----------
 
 The blog view doesn't require anything particular from the blog entries, as
-long at they are archetypes objects. If they aren't, well, then you need to
+long as they are archetypes objects. If they aren't, well, then you need to
 make your own blog entry view, something you might want to do anyway, to
 control how they look in detail. Doing it is easy, you just create a view
 called blog_item_view for your content type.
