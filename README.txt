@@ -70,7 +70,7 @@ called blog_item_view for your content type.
 Ploneish
 --------
 
-Yes, you can configure Plone so that an objects default view becomes a special
+Yes, you can configure Plone so that an object's default view becomes a special
 blog view when you set a marker interface on that object. But you can also
 just add the view to the list of allowed views in the portal type, and select
 the view from the view drop down. It's simpler, more easily configurable,
